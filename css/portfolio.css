@@ -1,0 +1,35 @@
+.portfolio {
+  margin-bottom: 150px;
+}
+
+.portfolio__title {
+  max-width: 395px;
+  margin-bottom: 80px;
+  color: #314584;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.portfolio__images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 55px;
+}
+
+.portfolio__image {
+  width: 370px;
+  height: 280px;
+  margin-bottom: 30px;
+}
+
+.portfolio__image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio__button {
+  margin: 0 auto;
+}

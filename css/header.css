@@ -1,0 +1,135 @@
+.header {
+  position: relative;
+  margin-top: 30px;
+  height: 200vh;
+  background: url(../img/header/header01.png) right bottom/auto 988px no-repeat, url(../img/header/header02.png) right top/auto 660px no-repeat;
+}
+
+.header__top {
+  margin-top: 20px;
+  margin-bottom: 265px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  width: 69px;
+  height: 30px;
+}
+
+.header__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__link {
+  margin-right: 45px;
+  color: #314584;
+  font-family: "Work Sans - Semi Bold";
+  font-size: 18px;
+}
+
+.header__settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__settings p {
+  margin-right: 60px;
+  color: #314584;
+  font-family: "Work Sans - Semi Bold";
+  font-size: 18px;
+}
+
+.header__contact-us-button {
+  width: 201px;
+  height: 61px;
+  -webkit-box-shadow: 0 5px 10px rgba(25, 45, 51, 0.15);
+          box-shadow: 0 5px 10px rgba(25, 45, 51, 0.15);
+  background-color: #ffffff;
+}
+
+.header__contact-us-button span {
+  margin: 20px 35px;
+  color: #ff3946;
+  font-family: "Work Sans - Semi Bold";
+  font-size: 18px;
+}
+
+.header__bottom {
+  max-width: 540px;
+}
+
+.header__title {
+  margin-bottom: 45px;
+  color: #314584;
+  font-family: "Work Sans - Semi Bold";
+  font-size: 73px;
+}
+
+.header__text {
+  margin-bottom: 40px;
+  color: #6e757a;
+  font-family: "Work Sans";
+  font-size: 18px;
+}
+
+.header__lang-menu {
+  display: none;
+}
+
+.header__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__about-us-button,
+.header__get-in-touch-button {
+  margin-right: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(255, 57, 70, 0.15);
+          box-shadow: 0 5px 10px rgba(255, 57, 70, 0.15);
+  padding: 20px 35px;
+  border-radius: 100px;
+}
+
+.header__about-us-button span,
+.header__get-in-touch-button span {
+  color: #314584;
+  font-family: "Work Sans - Semi Bold";
+  font-size: 18px;
+}
+
+.header__about-us-button:hover,
+.header__get-in-touch-button:hover {
+  background-color: #ff3946;
+}
+
+.header__about-us-button:hover span,
+.header__get-in-touch-button:hover span {
+  color: #ffffff;
+}

@@ -1,0 +1,11 @@
+.info {
+  padding: 115px 0 245px 0;
+  background: url(../../img/info/info01.png) left top/auto 967px no-repeat, url(../../img/info/info02.png) right bottom/auto 859px no-repeat;
+}
+
+@media (max-width: 767px) {
+  .info {
+    padding: 50px 0 115px 0;
+    background: url(../../img/info/info01.png) left top/auto 667px no-repeat, url(../../img/info/info02.png) right bottom/auto 559px no-repeat;
+  }
+}

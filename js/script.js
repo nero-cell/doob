@@ -1,6 +1,14 @@
 'use strict';
 
 $(function() {
+    $('a').click(function() {
+        let scrollingTo = $(this).attr('href');
+
+        $('html, body').animate({
+            scrollTop: $(scrollingTo).offset().top
+        }, 1000);
+    });
+
     if ($(this).width() < 768) {
         $('.header__contact-us-button')
             .appendTo('.header__links');
